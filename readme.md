@@ -1,8 +1,6 @@
-# APP UI: Component
+# Construct: Camera
 
-A bare minimum custom element for [APP UI](http://github.com/app-ui) using [VanillaJS](http://vanilla-js.com/).
-
-This is merely a template, designed to make it easy to get started creating a new APP UI element.
+...
 
 
 ## Examples
@@ -14,17 +12,13 @@ This is merely a template, designed to make it easy to get started creating a ne
 
 Using bower:
 ```
-bower install app.ui.component
+bower install construct-camera
 ```
 
 Import from github
 ```
-git pull git://github.com/app-ui/component.git master
+git pull git://github.com/construct-components/camera.git master
 ```
-
-Simply search and replace ```component``` and ```Component``` with your UI element name.
-
-The component contains all the basic structure to get started. The stylesheet is created using Less and then been compiled to a plain CSS file. It's your choice if you want to continue developing in Less or CSS.
 
 
 
@@ -38,13 +32,13 @@ The component contains all the basic structure to get started. The stylesheet is
 
 2. Import Custom Element:
 ```html
-<link rel="import" href="components/app.ui.component">
+<link rel="import" href="components/construct-camera">
 ```
 
-3. Start using it!
+3. The custom element extends the arbitrary tag _camera_
 
 ```html
-<ui-component></ui-component>
+<camera is="construct-camera"></camera>
 ```
 
 
